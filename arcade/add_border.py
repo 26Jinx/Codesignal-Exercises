@@ -2,13 +2,10 @@
 
 def addBorder(picture):
     # let's first determine the size of the picture
-    picture_height = len(picture)
     picture_width = len(picture[0])
     
     # adding a picture frame
-    framed_picture = []
-    
-    frame_height = picture_height + 2
+    framed_picture = []    
     frame_width = picture_width + 2
     
     top = bottom = '*' * frame_width
